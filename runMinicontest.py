@@ -21,7 +21,7 @@ MINICONTEST_PATH = "minicontest_output.pickle"
 
 
 if __name__ == '__main__':
-  print ("Loading training data")
+  print "Loading training data"
   rawTrainingData = samples.loadDataFile("digitdata/trainingimages", 5000,DIGIT_DATUM_WIDTH,DIGIT_DATUM_HEIGHT)
   trainingLabels = samples.loadLabelsFile("digitdata/traininglabels", 5000)
   rawValidationData = samples.loadDataFile("digitdata/validationimages", 100,DIGIT_DATUM_WIDTH,DIGIT_DATUM_HEIGHT)
@@ -33,25 +33,25 @@ if __name__ == '__main__':
   legalLabels = range(10)
   classifier = minicontest.contestClassifier(legalLabels)
 
-  print ("Extracting features...")
+  print "Extracting features..."
   trainingData = map(featureFunction, rawTrainingData)
   validationData = map(featureFunction, rawValidationData)
   testData = map(featureFunction, rawTestData)
 
-  print ("Training...")
+  print "Training..."
   classifier.train(trainingData, trainingLabels, validationData, validationLabels)
-  print ("Validating...")
+  print "Validating..."
   guesses = classifier.classify(validationData)
   correct = [guesses[i] == validationLabels[i] for i in range(len(validationLabels))].count(True)
-  print (str(correct), ("correct out of " + str(len(validationLabels)) + " (%.1f%%).") % (100.0 * correct / len(validationLabels)))
-  print ("Testing...")
+  print str(correct), ("correct out of " + str(len(validationLabels)) + " (%.1f%%).") % (100.0 * correct / len(validationLabels))
+  print "Testing..."
   guesses = classifier.classify(testData)
 
-  print ("Writing classifier output...")
+  print "Writing classifier output..."
   outfile = open(MINICONTEST_PATH,'w')
   output = {}
-  output['guesses'] = guesses
-  pickle.dump(output, outfile)
+  output['guesses'] = guesses;
+  pickle.dump(output,outfile)
   outfile.close()
-  print ("Write successful.")
+  print "Write successful."
   

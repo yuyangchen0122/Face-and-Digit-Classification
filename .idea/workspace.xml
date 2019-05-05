@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34a7bae1-475e-43b6-82ee-b73ce10a032e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classificationMethod.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataClassifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/digitdata/testimages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/digitdata/testlabels" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/digitdata/trainingimages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/digitdata/traininglabels" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/digitdata/validationimages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/digitdata/validationlabels" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/facedata/facedatatest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/facedata/facedatatestlabels" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/facedata/facedatatrain" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/facedata/facedatatrainlabels" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/facedata/facedatavalidation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/facedata/facedatavalidationlabels" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classification.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataClassifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataClassifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/perceptron.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runMinicontest.py" beforeDir="false" afterPath="$PROJECT_DIR$/runMinicontest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,31 +18,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answers.py">
+        <entry file="file://$PROJECT_DIR$/dataClassifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classificationMethod.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="344">
+              <caret line="631" column="56" lean-forward="true" selection-start-line="631" selection-start-column="56" selection-end-line="631" selection-end-column="56" />
+              <folding>
+                <element signature="e#518#537#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dataClassifier.py">
+        <entry file="file://$PROJECT_DIR$/perceptron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="403" column="32" selection-start-line="403" selection-start-column="32" selection-end-line="403" selection-end-column="32" />
-              <folding>
-                <element signature="e#518#537#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="317">
+              <caret line="62" column="55" lean-forward="true" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -75,7 +55,11 @@
       <find>your code</find>
       <find>smoothing</find>
       <find>your code here</find>
+      <find>print</find>
     </findStrings>
+    <replaceStrings>
+      <replace>print</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,23 +69,23 @@
       <list>
         <option value="$PROJECT_DIR$/minicontest.py" />
         <option value="$PROJECT_DIR$/mostFrequent.py" />
-        <option value="$PROJECT_DIR$/perceptron.py" />
         <option value="$PROJECT_DIR$/projects.css" />
         <option value="$PROJECT_DIR$/runMinicontest.py" />
         <option value="$PROJECT_DIR$/samples.py" />
         <option value="$PROJECT_DIR$/naiveBayes.py" />
-        <option value="$PROJECT_DIR$/util.py" />
         <option value="$PROJECT_DIR$/mira.py" />
         <option value="$PROJECT_DIR$/answers.py" />
         <option value="$PROJECT_DIR$/classificationMethod.py" />
         <option value="$PROJECT_DIR$/dataClassifier.py" />
+        <option value="$PROJECT_DIR$/util.py" />
+        <option value="$PROJECT_DIR$/perceptron.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="720" />
-    <option name="height" value="827" />
+    <option name="width" value="1440" />
+    <option name="height" value="828" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -204,10 +188,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="827" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17336152" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17336152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -218,7 +202,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32789117" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32744566" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -227,37 +211,15 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/digitdata/testlabels">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/digitdata/testimages">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/digitdata/trainingimages">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/digitdata/traininglabels">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/digitdata/validationimages">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/digitdata/validationlabels">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/facedata/facedatatest">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10988">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/facedata/facedatatestlabels">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/facedata/facedatatrainlabels">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/digitdata/testlabels" />
+    <entry file="file://$PROJECT_DIR$/data/digitdata/testimages" />
+    <entry file="file://$PROJECT_DIR$/data/digitdata/trainingimages" />
+    <entry file="file://$PROJECT_DIR$/data/digitdata/traininglabels" />
+    <entry file="file://$PROJECT_DIR$/data/digitdata/validationimages" />
+    <entry file="file://$PROJECT_DIR$/data/digitdata/validationlabels" />
+    <entry file="file://$PROJECT_DIR$/data/facedata/facedatatest" />
+    <entry file="file://$PROJECT_DIR$/data/facedata/facedatatestlabels" />
+    <entry file="file://$PROJECT_DIR$/data/facedata/facedatatrainlabels" />
     <entry file="file://$PROJECT_DIR$/minicontest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -268,20 +230,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/perceptron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/projects.css" />
     <entry file="file://$PROJECT_DIR$/runMinicontest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -309,13 +258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="519" column="16" lean-forward="true" selection-start-line="519" selection-start-column="16" selection-end-line="519" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/naiveBayes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -333,6 +275,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/facedata/facedatatrain">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/answers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -343,17 +288,31 @@
     <entry file="file://$PROJECT_DIR$/classificationMethod.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="417" column="7" lean-forward="true" selection-start-line="417" selection-start-column="7" selection-end-line="417" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="403" column="32" selection-start-line="403" selection-start-column="32" selection-end-line="403" selection-end-column="32" />
+        <state relative-caret-position="344">
+          <caret line="631" column="56" lean-forward="true" selection-start-line="631" selection-start-column="56" selection-end-line="631" selection-end-column="56" />
           <folding>
             <element signature="e#518#537#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="62" column="55" lean-forward="true" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
         </state>
       </provider>
     </entry>

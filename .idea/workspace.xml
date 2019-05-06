@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="34a7bae1-475e-43b6-82ee-b73ce10a032e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dataClassifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataClassifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/perceptron.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runMinicontest.py" beforeDir="false" afterPath="$PROJECT_DIR$/runMinicontest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facedata/facedatavalidationlabels" beforeDir="false" afterPath="$PROJECT_DIR$/facedata/facedatavalidationlabels" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dataClassifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dataClassifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="631" column="56" lean-forward="true" selection-start-line="631" selection-start-column="56" selection-end-line="631" selection-end-column="56" />
+            <state relative-caret-position="276">
+              <caret line="475" column="45" lean-forward="true" selection-start-line="475" selection-start-column="45" selection-end-line="475" selection-end-column="45" />
               <folding>
                 <element signature="e#518#537#0" expanded="true" />
               </folding>
@@ -29,11 +28,66 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/facedata/facedatatrainlabels">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6435" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/digitdata/traininglabels">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2675">
+              <caret line="4999" column="1" lean-forward="true" selection-start-line="4999" selection-start-column="1" selection-end-line="4999" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/digitdata/trainingimages">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/digitdata/testlabels">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="999" column="1" lean-forward="true" selection-start-line="999" selection-start-column="1" selection-end-line="999" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/facedata/facedatatestlabels">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1920" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/facedata/facedatavalidationlabels">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="584">
+              <caret line="297" column="1" lean-forward="true" selection-start-line="297" selection-start-column="1" selection-end-line="297" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1381">
+              <caret line="107" column="6" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/perceptron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="62" column="55" lean-forward="true" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
+            <state relative-caret-position="-609">
+              <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -55,7 +109,13 @@
       <find>your code</find>
       <find>smoothing</find>
       <find>your code here</find>
-      <find>print</find>
+      <find>training</find>
+      <find>time</find>
+      <find>2</find>
+      <find>std</find>
+      <find>mid</find>
+      <find>perceptron</find>
+      <find>start_row</find>
     </findStrings>
     <replaceStrings>
       <replace>print</replace>
@@ -76,9 +136,12 @@
         <option value="$PROJECT_DIR$/mira.py" />
         <option value="$PROJECT_DIR$/answers.py" />
         <option value="$PROJECT_DIR$/classificationMethod.py" />
-        <option value="$PROJECT_DIR$/dataClassifier.py" />
         <option value="$PROJECT_DIR$/util.py" />
         <option value="$PROJECT_DIR$/perceptron.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/images/dataClassifier.py" />
+        <option value="$PROJECT_DIR$/facedata/facedatavalidationlabels" />
+        <option value="$PROJECT_DIR$/dataClassifier.py" />
       </list>
     </option>
   </component>
@@ -102,6 +165,16 @@
             <path>
               <item name="Face-and-Digit-Classification" type="b2602c69:ProjectViewProjectNode" />
               <item name="Face-and-Digit-Classification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Face-and-Digit-Classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Face-and-Digit-Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="digitdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Face-and-Digit-Classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Face-and-Digit-Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="facedata" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -195,14 +268,14 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32880434" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32911393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32744566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.39538044" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -220,16 +293,6 @@
     <entry file="file://$PROJECT_DIR$/data/facedata/facedatatest" />
     <entry file="file://$PROJECT_DIR$/data/facedata/facedatatestlabels" />
     <entry file="file://$PROJECT_DIR$/data/facedata/facedatatrainlabels" />
-    <entry file="file://$PROJECT_DIR$/minicontest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#419#430#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects.css" />
     <entry file="file://$PROJECT_DIR$/runMinicontest.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -241,29 +304,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mira.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mostFrequent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#421#432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naiveBayes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="56" column="65" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="65" />
-          <folding>
-            <element signature="e#417#428#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -285,24 +331,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minicontest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#419#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naiveBayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="170" column="4" lean-forward="true" selection-start-line="170" selection-start-column="4" selection-end-line="170" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classificationMethod.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="358">
           <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mira.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-752">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="417" column="7" lean-forward="true" selection-start-line="417" selection-start-column="7" selection-end-line="417" selection-end-column="7" />
+        <state relative-caret-position="-1381">
+          <caret line="107" column="6" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataClassifier.py">
+    <entry file="file://$PROJECT_DIR$/images/dataClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="631" column="56" lean-forward="true" selection-start-line="631" selection-start-column="56" selection-end-line="631" selection-end-column="56" />
+        <state relative-caret-position="9656">
+          <caret line="649" column="49" lean-forward="true" selection-start-line="649" selection-start-column="49" selection-end-line="649" selection-end-column="49" />
           <folding>
             <element signature="e#518#537#0" expanded="true" />
           </folding>
@@ -311,8 +391,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/perceptron.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="62" column="55" lean-forward="true" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
+        <state relative-caret-position="-609">
+          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facedata/facedatatrainlabels">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6435" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitdata/traininglabels">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2675">
+          <caret line="4999" column="1" lean-forward="true" selection-start-line="4999" selection-start-column="1" selection-end-line="4999" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitdata/trainingimages">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitdata/testlabels">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="999" column="1" lean-forward="true" selection-start-line="999" selection-start-column="1" selection-end-line="999" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facedata/facedatatestlabels">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1920" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facedata/facedatavalidationlabels">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="297" column="1" lean-forward="true" selection-start-line="297" selection-start-column="1" selection-end-line="297" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataClassifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="475" column="45" lean-forward="true" selection-start-line="475" selection-start-column="45" selection-end-line="475" selection-end-column="45" />
+          <folding>
+            <element signature="e#518#537#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

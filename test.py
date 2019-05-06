@@ -18,10 +18,10 @@ print(IntegerConversionFunction(a))
 data = []
 items = []
 for j in range(28):
-  data.append(list(fin.pop()))
+    data.append(list(fin.pop()))
 
 for i in range(28):
-	print(data[i])
+    print(data[i])
 
 items.append(Datum(data,28, 28))
 print(items[0].getPixels())

@@ -9,7 +9,7 @@ def differences(a, b):
 
 def getfeature(image,lable, no):
     line = image[no]
-    length = image_length/4
+    length = image_length//4
     count = 0
     #print(length)
     #print(len(line[0]))
@@ -177,7 +177,7 @@ for pp in range(1,11):
     image_length = 28
     all=[l[:-1] for l in open("facedata/facedatavalidation").readlines()]
     total = len(lable)
-    n_image = total*percent/10
+    n_image = total*percent//10
     line = []
     image = []
     for i in range(n_image):
